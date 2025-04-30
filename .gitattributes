@@ -1,0 +1,6 @@
+best_convnext_model_aircraft.pth filter=lfs diff=lfs merge=lfs -text
+best_convnext_model_food.pth filter=lfs diff=lfs merge=lfs -text
+best_convnext_model_flower.pth filter=lfs diff=lfs merge=lfs -text
+checkpoint_convnext_aircraft.pth filter=lfs diff=lfs merge=lfs -text
+checkpoint_convnext_flower.pth filter=lfs diff=lfs merge=lfs -text
+checkpoint_convnext_food.pth filter=lfs diff=lfs merge=lfs -text
