@@ -4,8 +4,8 @@
 
 This repository provides a training and evaluation framework for the ConvNeXt-Tiny architecture applied to three image classification benchmarks:
 
-- FGVC Aircraft
-- Oxford Flowers 102
+- FGVC-Aircraft
+- Oxford Flowers-102
 - Food-101
 
 Each dataset is trained and evaluated independently using a transfer learning approach. The models leverage pretrained weights on ImageNet-1K.
@@ -14,8 +14,8 @@ Each dataset is trained and evaluated independently using a transfer learning ap
 
 | Dataset       | Classes | Samples | Description                   |
 | ------------- | ------- | ------- | ----------------------------- |
-| FGVC Aircraft | 102     | 10,000  | Fine-grained aircraft types   |
-| Flowers 102   | 102     | 8,189   | Colorful flower categories    |
+| FGVC-Aircraft | 102     | 10,000  | Fine-grained aircraft types   |
+| Flowers-102   | 102     | 8,189   | Colorful flower categories    |
 | Food-101      | 101     | 101,000 | Real-world food image dataset |
 
 ## Requirements
@@ -99,8 +99,8 @@ F1-Score: 0.8555
 
 | Dataset       | Top-1 Accuracy | Precision | Recall | F1-Score |
 | ------------- | -------------- | --------- | ------ | -------- |
-| FGVC Aircraft | 0.8542         | 0.8587    | 0.8542 | 0.8538   |
-| Flowers 102   | 0.9809         | 0.9818    | 0.9809 | 0.9808   |
+| FGVC-Aircraft | 0.8542         | 0.8587    | 0.8542 | 0.8538   |
+| Flowers-102   | 0.9809         | 0.9818    | 0.9809 | 0.9808   |
 | Food-101      | 0.8687         | 0.8718    | 0.8687 | 0.8691   |
 
 
